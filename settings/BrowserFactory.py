@@ -1,12 +1,17 @@
 from selenium import webdriver
+import Constants
 
 
-
-class BrowserFactory():
+class BrowserFactory:
 
     def instanciaBrowser(self, browser):
 
-        if (browser == "FIREFOX"):
-            
+        if browser == "FIREFOX":
+            self.driver = webdriver.Firefox()
+
+         if browser
+
+
+             http: // selenium - python.readthedocs.io / page - objects.html
 
 
