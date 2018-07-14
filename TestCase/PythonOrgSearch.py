@@ -1,7 +1,7 @@
 import unittest
 import pytest
 from selenium import webdriver
-import page
+from pages import page
 
 class PythonOrgSearch(unittest.TestCase):
     """A sample test class to show how page object works"""

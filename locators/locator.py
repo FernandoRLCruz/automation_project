@@ -4,7 +4,3 @@ from selenium.webdriver.common.by import By
 class MainPageLocators(object):
 
     go_button = (By.ID, 'submit')
-
-'''Classe base para busca de elemento'''
-class SearchResultsPageLocators(object):
-    pass
